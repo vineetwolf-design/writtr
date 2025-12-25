@@ -66,8 +66,7 @@ export function HeroSection() {
 
           <AnimateOnScroll variant={fadeUp}>
             <p className="mt-6 font-sans text-muted-foreground text-lg max-w-xl mx-auto leading-relaxed">
-              The AI assistant that repurposes your rough note into thoughtful essays, LinkedIn essays, and news letters in
-              seconds. Write, onem everywhere.
+              Transform your blog drafts and rough ideas into platform-optimized content. One piece of writing. Multiple platforms. Maximum impact.
             </p>
           </AnimateOnScroll>
 

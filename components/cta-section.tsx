@@ -56,7 +56,7 @@ export function CTASection() {
                 <div className="relative z-10 text-center">
                   <h2 className="font-serif text-3xl md:text-4xl mb-4">Ready to stop formatting?</h2>
                   <p className="text-white/80 mb-8 max-w-md mx-auto font-sans">
-                    Join the new wave of creatore using AI to antite ther voice, not replace it.
+                    Join creators amplifying their voice across platforms, without hiring a team.
                   </p>
                 </div>
               </AnimateOnScroll>

@@ -8,19 +8,19 @@ export function UseCases() {
     {
       badge: "FOUNDERS",
       title: "Build in Public",
-      description: "Sties por journey affimatty without haurs roaming the perfset episels.",
+      description: "Share your journey authentically without spending hours reformatting the same story across platforms.",
       image: "/laptop-workspace-with-coffee-and-notebook-vintage-.jpg",
     },
     {
       badge: "CREATORS",
-      title: "Scalv Your Niche",
-      description: "Turn one thoughtful blog post in a week of engiqing platform, giattic devol content.",
+      title: "Scale Your Niche",
+      description: "Turn one thoughtful blog post into a week of engaging, platform-specific content that resonates with your audience.",
       image: "/creative-desk-setup-with-plants-and-stationery-vin.jpg",
     },
     {
-      badge: "TEAMS",
-      title: "Content Harmony",
-      description: "Maintain s constante. high quality fand mice anlelet of hamtinrricos and chematals.",
+      badge: "SOLOPRENEURS",
+      title: "Content Without Team",
+      description: "Maintain consistency and quality across all platforms without hiring a social media manager.",
       image: "/team-collaboration-workspace-with-papers-vintage-s.jpg",
     },
   ]

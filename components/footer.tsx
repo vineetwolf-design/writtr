@@ -13,7 +13,7 @@ export function Footer() {
     <footer className="py-12 px-6 border-t border-border bg-muted/20">
       <div className="max-w-6xl mx-auto">
         <AnimateOnScroll variant={fadeIn}>
-          <div className="grid md:grid-cols-5 gap-8">
+          <div className="grid md:grid-cols-5 gap-8 md:gap-12">
             {/* Brand */}
             <AnimateOnScroll variant={fadeUp}>
               <div className="md:col-span-2">
@@ -24,7 +24,7 @@ export function Footer() {
                   <span className="font-serif text-xl font-semibold text-foreground">Writtr</span>
                 </div>
                 <p className="text-sm text-muted-foreground mb-4 max-w-xs">
-                  Empowering solo cretoers to build sustinable media empires, solo idea at a time.
+                  Empowering solo creators to build sustainable media empires, solo idea at a time.
                 </p>
                 <div className="flex items-center gap-4">
                   <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
@@ -41,51 +41,49 @@ export function Footer() {
             </AnimateOnScroll>
 
             {/* Links */}
-            <AnimateOnScroll variant={stagger}>
-              <AnimateOnScroll variant={fadeUp}>
-                <div>
-                  <h4 className="font-medium text-foreground mb-4 text-sm uppercase tracking-wider">Product</h4>
-                  <ul className="space-y-2">
-                    {footerLinks.product.map((link) => (
-                      <li key={link}>
-                        <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                          {link}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </AnimateOnScroll>
+            <AnimateOnScroll variant={fadeUp}>
+              <div>
+                <h4 className="font-medium text-foreground mb-4 text-sm uppercase tracking-wider">Product</h4>
+                <ul className="space-y-2">
+                  {footerLinks.product.map((link) => (
+                    <li key={link}>
+                      <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                        {link}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </AnimateOnScroll>
 
-              <AnimateOnScroll variant={fadeUp}>
-                <div>
-                  <h4 className="font-medium text-foreground mb-4 text-sm uppercase tracking-wider">Resources</h4>
-                  <ul className="space-y-2">
-                    {footerLinks.resources.map((link) => (
-                      <li key={link}>
-                        <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                          {link}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </AnimateOnScroll>
+            <AnimateOnScroll variant={fadeUp}>
+              <div>
+                <h4 className="font-medium text-foreground mb-4 text-sm uppercase tracking-wider">Resources</h4>
+                <ul className="space-y-2">
+                  {footerLinks.resources.map((link) => (
+                    <li key={link}>
+                      <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                        {link}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </AnimateOnScroll>
 
-              <AnimateOnScroll variant={fadeUp}>
-                <div>
-                  <h4 className="font-medium text-foreground mb-4 text-sm uppercase tracking-wider">Company</h4>
-                  <ul className="space-y-2">
-                    {footerLinks.company.map((link) => (
-                      <li key={link}>
-                        <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                          {link}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </AnimateOnScroll>
+            <AnimateOnScroll variant={fadeUp}>
+              <div>
+                <h4 className="font-medium text-foreground mb-4 text-sm uppercase tracking-wider">Company</h4>
+                <ul className="space-y-2">
+                  {footerLinks.company.map((link) => (
+                    <li key={link}>
+                      <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                        {link}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </AnimateOnScroll>
           </div>
         </AnimateOnScroll>

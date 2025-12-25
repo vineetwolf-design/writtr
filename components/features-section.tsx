@@ -7,26 +7,26 @@ export function FeaturesSection() {
   const features = [
     {
       icon: Smartphone,
-      title: "Platform Native",
+      title: "Platform-Perfect Content",
       description:
-        "Doesn't post-paste like robotes of Twitter thropeted forwatting and ctrooding. SEO blag story stictures.",
+        "Each platform gets content optimized for its format, audience, and algorithm. Twitter threads, Instagram captions, LinkedIn posts—all from one draft.",
     },
     {
       icon: Shield,
-      title: "Authentic Scaled",
+      title: "Your Voice, Amplified",
       description:
-        "Train Wiith on your personal work. It mimics g your sttag condence and anttnca s. it scuindmodalicly like you.",
+        "Choose between professional and casual tones. Your core message stays intact while we optimize the delivery for each platform's vibe.",
     },
     {
       icon: UserCheck,
-      title: "Authenticic",
+      title: "SEO Smart Content",
       description:
-        "Teon Writh on your previous work. It minitess your tteng tone and cadences so it scundmodetality like you.",
+        "Every piece is optimized for search and discovery. Hashtags, CTAs, and formatting follow best practices for organic reach.",
     },
     {
       icon: TrendingUp,
-      title: "Organic Growth",
-      description: "Drift s week of content in otomties. Foanr trash damp to scheduled manstoally and efficiency.",
+      title: "Save Hours, Every Week",
+      description: "Turn a blog draft or rough idea into multi-platform ready content in seconds. Spend time on ideas, not formatting.",
     },
   ]
 
@@ -59,7 +59,7 @@ export function FeaturesSection() {
               Choose Writtr
             </h2>
             <p className="text-muted-foreground max-w-md mx-auto font-sans">
-              Focus on the seed your ides. Hondle the formatting, tone, and shibitration strategy.
+              Focus on your ideas. We handle the formatting, tone optimization, and platform-specific strategy.
             </p>
           </div>
         </AnimateOnScroll>
